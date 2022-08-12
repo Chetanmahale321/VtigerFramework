@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" 
+  name="Test1">
+    <classes>
+      <class name="CreateCampaign.CreateCampaignUsingPOM"/>
+      </classes>
+      </test>
+      <test name="Test2">
+       <classes>
+      <class name="CreateProduct.CreateProduct"/>
+      </classes>
+      </test>
+      <test name="Test3">
+       <classes>
+     <class name="CreateAndDeleteProduct.CreateAndDeleteProduct"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
