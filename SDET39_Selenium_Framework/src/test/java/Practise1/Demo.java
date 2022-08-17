@@ -8,4 +8,8 @@ public class Demo {
 	{
 		System.out.println("modified contact");
 	}
+public void DeleteContact()
+{
+	System.out.println("Delete contact");
+}
 }
