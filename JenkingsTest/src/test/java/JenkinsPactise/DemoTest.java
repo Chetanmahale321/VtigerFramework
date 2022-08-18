@@ -26,6 +26,7 @@ public class DemoTest {
 		System.out.println("Url");
 		System.out.println("Welcome to jenkins");
 		System.out.println("Pull Practise");
+		System.out.println("Pull Practise1");
 		
 		
 		driver.quit();
