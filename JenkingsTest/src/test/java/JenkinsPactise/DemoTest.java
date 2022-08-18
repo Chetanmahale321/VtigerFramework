@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class DemoTest {
+public class DemoTest1 {
 	@Test
 	public void demoTest() throws Throwable {
 		
