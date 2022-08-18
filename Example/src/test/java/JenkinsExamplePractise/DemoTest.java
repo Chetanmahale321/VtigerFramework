@@ -25,7 +25,6 @@ public class DemoTest {
 		
 		System.out.println("Url");
 		System.out.println("Welcome to jenkins");
-		System.out.println("Hi jenkins");
 		System.out.println("Pull practise Done");
 		
 		
