@@ -22,7 +22,7 @@ public class BubbleSortInAscOrder {
 		    	    a[j]=temp;
 		    	    System.out.println("a[j] ="+a[j]);  
 		        }}}
-		    for(int k=0; k<a.length;k++)
+		    for(int k=0;k<a.length;k++)
 		    {
 		    	System.out.println(a[k]);
 		    }

@@ -9,11 +9,11 @@ public class SumOfFirst3MaxNoInArray {
 			//i=1 1<5t
 			for(int j=0; j<a.length;j++)
 			{
-		        if(a[i]>a[j])
-		        {  //4>1t 1>2t 1>3t 1>0t,  (<)-->ascending, (>)-->Descending				  
-		    	    int temp=a[i];//4=4 1=1
-		    	    a[i]=a[j];//1=1 0=0
-		    	    a[j]=temp;//4=4 1=1   	   
+		        if(a[i]>a[j])  //4>1t 1>2t 1>3t 1>0t,  (<)-->ascending, (>)-->Descending
+		        	{
+		    	    int temp=a[i];  //4=4 1=1
+		    	    a[i]=a[j];     //1=1 0=0
+		    	    a[j]=temp;     //4=4 1=1   	   
 		        }}}		    
 	     	int sum=0;
 		for(int i=0;i<3;i++)
@@ -22,5 +22,6 @@ public class SumOfFirst3MaxNoInArray {
 		}
 		System.out.println(sum);
 	}
-
 }
+
+

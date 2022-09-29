@@ -12,7 +12,7 @@ public class Find1stAnd2ndMinNoInArray {
 				min=a[i];
 			}
 		}
-		System.out.println("the minimum number is="  +min);
+		System.out.println("first minimum number is="  +min);
 	
 		int min2=a[1];
 		for(int i=1;i<a.length;i++)
@@ -22,7 +22,7 @@ public class Find1stAnd2ndMinNoInArray {
 				min2=a[i];
 			}
 	  	}
-		System.out.println("second minimum " +min2);
+		System.out.println("second minimum number is=" +min2);
 //		int min3=a[1];
 //		for(int i=1;i<a.length;i++)
 //		{

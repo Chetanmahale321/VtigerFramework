@@ -3,12 +3,12 @@ package Practise;
 public class FirstMaxNoInArrayUsingBubbleSort {
 
 	public static void main(String[] args) {
-		int[] a= {4,1,2,3,0};
+		int[] a= {0,1,2,3,4};
 		for(int i=0;i<a.length;i++)//Fetching elements from array one by one
 			//i=0 0<5t
 			//i=1 1<5t
 		{
-			for(int j=0; j<a.length;j++)
+			for(int j=0;j<a.length;j++)
 			{
 		        if(a[i]>a[j])//4>1t 1>2t 1>3t 1>0t,  (<)-->ascending, (>)-->Descending
 		        {				  

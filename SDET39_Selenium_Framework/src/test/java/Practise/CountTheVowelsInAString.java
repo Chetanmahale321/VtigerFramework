@@ -5,7 +5,6 @@ public class CountTheVowelsInAString {
 	public static void main(String[] args) {
 		String s="india";  //o/p == Vowels are 3
 		int count=0;
-		
 		System.out.println(s);
 		//char[] s =s1.toCharArray();
 		for(int i=0;i<s.length();i++)

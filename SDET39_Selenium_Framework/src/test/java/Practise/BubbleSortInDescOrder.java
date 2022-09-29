@@ -24,7 +24,7 @@ public class BubbleSortInDescOrder {
 		        }
 			  }
 		    }
-		    for(int k=0; k<a.length;k++)
+		    for(int k=0;k<a.length;k++)
 		    {
 		    	System.out.println(a[k]);
 		    }
